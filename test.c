@@ -12,4 +12,6 @@ printf("\n sub :%d,a-b);
 
 }
 
-
+{
+printf("\n mult :%d, a*b);
+}
