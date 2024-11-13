@@ -3,5 +3,13 @@
 void main ()
 {
 int (int a, int b);
-  printf("\n addn ;)
+  printf("\n addn :%d, a+b);
 }
+
+{
+
+printf("\n sub :%d,a-b);
+
+}
+
+
