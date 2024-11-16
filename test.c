@@ -1,17 +1,11 @@
 #include<stdio.h>
-
-void main ()
+int main ()
 {
-int (int a, int b);
-  printf("\n addn :%d, a+b);
-}
+int x=3,y=10,a;
+ a=x;
+ x=y;
+ y=a; 
+printf("%d,%d",x,y);
 
-{
-
-printf("\n sub :%d,a-b);
-
-}
-
-{
-printf("\n mult :%d, a*b);
+return 0;
 }
