@@ -1,18 +1,34 @@
 #include<stdio.h>
 int main()
 {
-int i,a[10];
+int i,a[5]={23,4,52,25,9},temp;
 
-     for(i=0;i<10;i++)
+
+     for(i=0;i<5;i++)
      {
-	printf("enter %d th element", i);
-        scanf("%d ",&a[i]);
+      if(a[i]>a[i+1])
+      {
+        temp=a[i];
+        a[i]=a[i+1];
+        a[i+1]=temp;
+      }
+
      }
 
-     for(i=0;i<10;i++)
+    for(i=0;i<4;i++)
      {
-	printf("%d\t",a[i]);
+      if(a[i]>a[i+1])
+     {
+       temp=a[i];
+       a[i]=a[i+1];
+       a[i+1]=temp;
      }
 
+     }
+
+    for(i=0;i<5;i++)
+  {
+    printf("%d\t",a[i]);
+  }
 return 0;
 }
