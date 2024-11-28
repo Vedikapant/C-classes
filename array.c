@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int i,a[5]={23,4,52,25,9},temp;
+int i,a[5]={37,32,9,51,7},temp;
 
 
      for(i=0;i<5;i++)
      {
-      if(a[i]>a[i+1])
+      if(a[0]>a[i+1])
       {
-        temp=a[i];
-        a[i]=a[i+1];
+        temp=a[0];
+        a[0]=a[i+1];
         a[i+1]=temp;
       }
 
@@ -17,10 +17,10 @@ int i,a[5]={23,4,52,25,9},temp;
 
     for(i=0;i<4;i++)
      {
-      if(a[i]>a[i+1])
+      if(a[0]>a[i+1])
      {
        temp=a[i];
-       a[i]=a[i+1];
+       a[0]=a[i+1];
        a[i+1]=temp;
      }
 
